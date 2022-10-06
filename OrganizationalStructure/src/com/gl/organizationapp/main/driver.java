@@ -11,19 +11,14 @@ public class driver {
 
 	public static void main(String[] args) {
 		
-		//Super Department 
+		//Creating Objects 
 		Super_Department superDept = new Super_Department();
-		
-		//Admin Department 	
 		Admin_Department adminDept = new Admin_Department();
-
-		//HR Department 	
 		Hr_Department hrDept = new Hr_Department();
-
-		//Tech Department 	
 		Tech_Department techDept = new Tech_Department();
 
 		
+
 		//Display all Functionalities 
 		display show = new display();
 		show.displayfunctionalities(superDept);
