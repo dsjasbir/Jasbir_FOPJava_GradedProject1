@@ -1,6 +1,8 @@
 package com.gl.organizationapp.model;
 
 public class Hr_Department extends Super_Department	 {
+	
+	private String Activity ;
 		
 	public Hr_Department(){
 		
@@ -11,11 +13,14 @@ public class Hr_Department extends Super_Department	 {
 		
 	}
 
-	 public String doActivity() {
-		 
-		 return Activity;
-		 
-	 }
-	
+	public String doActivity() {
+		return Activity;
+	}
 
+	public void doActivity(String activity) {
+		Activity = activity;
+	}
+
+
+	
 }

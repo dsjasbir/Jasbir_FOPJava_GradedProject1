@@ -8,11 +8,10 @@ import com.gl.organizationapp.Service.display;
 
 public class driver {
 	
-	
- 
 
 	public static void main(String[] args) {
-		//Supper Department 
+		
+		//Super Department 
 		Super_Department superDept = new Super_Department();
 		
 		//Admin Department 	
@@ -24,14 +23,13 @@ public class driver {
 		//Tech Department 	
 		Tech_Department techDept = new Tech_Department();
 
-		//Display all Functionalities 
 		
+		//Display all Functionalities 
 		display show = new display();
 		show.displayfunctionalities(superDept);
 		show.displayfunctionalities(adminDept);
 		show.displayfunctionalities(hrDept);
 		show.displayfunctionalities(techDept);
-		
 		
 		
 		

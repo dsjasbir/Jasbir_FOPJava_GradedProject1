@@ -2,16 +2,8 @@ package com.gl.organizationapp.model;
 
 public class Super_Department {
 	
-	protected String departmentName,todayWork,workDeadline,isTodayAHoliday,Activity,TechStackInformation;
+	protected String departmentName,todayWork,workDeadline,isTodayAHoliday ;
 	
-	public String getActivity() {
-		return Activity;
-	}
-
-	public void setActivity(String activity) {
-		Activity = activity;
-	}
-
 	public Super_Department(){
 		
 		departmentName = "Super Department";
@@ -20,7 +12,7 @@ public class Super_Department {
 		isTodayAHoliday = "Today is not a holiday";
 		
 	}
-
+	
 	public String getDepartmentName() {
 		return departmentName;
 	}
@@ -35,14 +27,6 @@ public class Super_Department {
 
 	public void setTodayWork(String todayWork) {
 		this.todayWork = todayWork;
-	}
-
-	public String getTechStackInformation() {
-		return TechStackInformation;
-	}
-
-	public void setTechStackInformation(String techStackInformation) {
-		TechStackInformation = techStackInformation;
 	}
 
 	public String getWorkDeadline() {
@@ -60,6 +44,8 @@ public class Super_Department {
 	public void setIsTodayAHoliday(String isTodayAHoliday) {
 		this.isTodayAHoliday = isTodayAHoliday;
 	}
+
+	
 
 	
 }

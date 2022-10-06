@@ -2,7 +2,8 @@ package com.gl.organizationapp.model;
 
 public class Tech_Department extends Super_Department {
 	
-
+private String TechStackInformation ; 
+	
 public Tech_Department(){
 		
 		departmentName = "Tech Department";
@@ -18,6 +19,7 @@ public String getTechStackInformation() {
 
 public void setTechStackInformation(String techStackInformation) {
 	TechStackInformation = techStackInformation;
-}	
+}
+
 
 }
