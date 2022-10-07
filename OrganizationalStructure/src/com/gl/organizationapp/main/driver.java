@@ -24,7 +24,7 @@ public class driver {
 		show.displayfunctionalities(superDept);
 		show.displayfunctionalities(adminDept);
 		show.displayfunctionalities(hrDept);
-		show.displayfunctionalities(techDept);
+		show.displayfunctionalities(techDept);	
 		
 		
 		

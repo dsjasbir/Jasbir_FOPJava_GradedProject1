@@ -12,7 +12,7 @@ public class display {
 	
 	public void displayfunctionalities(Super_Department sd) {
 		System.out.println("==".repeat(20));
-		System.out.println(sd.getDepartmentName());
+		System.out.println("Welcome to " + sd.getDepartmentName());
 	  	System.out.println(sd.getTodayWork());
 	  	System.out.println(sd.getWorkDeadline());
 	 	System.out.println(sd.getIsTodayAHoliday());
@@ -20,7 +20,7 @@ public class display {
 
 	public void displayfunctionalities(Admin_Department sd) {
 		System.out.println("==".repeat(20));
-		System.out.println(sd.getDepartmentName());
+		System.out.println("Welcome to " + sd.getDepartmentName());
 	  	System.out.println(sd.getTodayWork());
 	  	System.out.println(sd.getWorkDeadline());
 	 	System.out.println(sd.getIsTodayAHoliday());
@@ -28,7 +28,7 @@ public class display {
 
 	public void displayfunctionalities(Hr_Department sd) {
 		System.out.println("==".repeat(20));
-		System.out.println(sd.getDepartmentName());
+		System.out.println("Welcome to " +sd.getDepartmentName());
 	  	System.out.println(sd.getTodayWork());
 	  	System.out.println(sd.getWorkDeadline());
 	  	System.out.println(sd.doActivity());
@@ -37,7 +37,7 @@ public class display {
 
 	public void displayfunctionalities(Tech_Department sd) {
 		System.out.println("==".repeat(20));
-		System.out.println(sd.getDepartmentName());
+		System.out.println("Welcome to " + sd.getDepartmentName());
 	  	System.out.println(sd.getTodayWork());
 	  	System.out.println(sd.getWorkDeadline());
 	  	System.out.println(sd.getTechStackInformation());
