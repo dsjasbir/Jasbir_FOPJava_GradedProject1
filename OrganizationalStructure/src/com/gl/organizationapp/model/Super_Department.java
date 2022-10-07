@@ -2,14 +2,14 @@ package com.gl.organizationapp.model;
 
 public class Super_Department {
 	
-	protected String departmentName,todayWork,workDeadline,isTodayAHoliday ;
+	public String departmentName,todayWork,workDeadline,isTodayAHoliday ;
 	
 	public Super_Department(){
 		
-		departmentName = "Super Department";
-		todayWork = "No Work as of now";
-		workDeadline = "Nil";
-		isTodayAHoliday = "Today is not a holiday";
+		this.departmentName = "Super Department";
+		this.todayWork = "No Work as of now";
+		this.workDeadline    = "Nil";
+		this.isTodayAHoliday = "Today is not a holiday";
 		
 	}
 	

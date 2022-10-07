@@ -6,10 +6,10 @@ private String TechStackInformation ;
 	
 public Tech_Department(){
 		
-		departmentName = "Tech Department";
-		todayWork = "Complete coding of module 1";
-		workDeadline = "Complete by EOD";
-		TechStackInformation  = "Core Java";
+		this.departmentName = "Tech Department";
+		this.todayWork = "Complete coding of module 1";
+		this.workDeadline = "Complete by EOD";
+		this.TechStackInformation  = "Core Java";
 		
 	}
 

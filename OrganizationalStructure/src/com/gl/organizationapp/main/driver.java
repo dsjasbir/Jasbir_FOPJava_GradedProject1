@@ -12,7 +12,7 @@ public class driver {
 	public static void main(String[] args) {
 		
 		//Creating Objects 
-		Super_Department superDept = new Super_Department();
+//		Super_Department superDept = new Super_Department();
 		Admin_Department adminDept = new Admin_Department();
 		Hr_Department hrDept = new Hr_Department();
 		Tech_Department techDept = new Tech_Department();
@@ -21,7 +21,7 @@ public class driver {
 
 		//Display all Functionalities 
 		display show = new display();
-		show.displayfunctionalities(superDept);
+//		show.displayfunctionalities(superDept);
 		show.displayfunctionalities(adminDept);
 		show.displayfunctionalities(hrDept);
 		show.displayfunctionalities(techDept);	
