@@ -8,8 +8,8 @@ public class Super_Department {
 		
 		this.departmentName = "Super Department";
 		this.todayWork = "No Work as of now";
-		this.workDeadline    = "Nil";
-		this.isTodayAHoliday = "Today is not a holiday";
+		this.workDeadline = "Nil";
+		this.isTodayAHoliday =  "Today is not a holiday";
 		
 	}
 	

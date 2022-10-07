@@ -2,9 +2,9 @@ package com.gl.organizationapp.main;
 
 import com.gl.organizationapp.model.Admin_Department;
 import com.gl.organizationapp.model.Hr_Department;
-import com.gl.organizationapp.model.Super_Department;
+//import com.gl.organizationapp.model.Super_Department;
 import com.gl.organizationapp.model.Tech_Department;
-import com.gl.organizationapp.Service.display;
+import com.gl.organizationapp.service.display;
 
 public class driver {
 	
